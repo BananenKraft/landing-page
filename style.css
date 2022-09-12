@@ -94,3 +94,33 @@ body, html{
 .inner.container {
     flex-direction: column;
 }
+.part-four.container {
+    background-color: #ede400;
+    width: 900px;
+    height: 100px;
+    margin: 50px;
+    border-radius: 16px;
+    padding: 8px;
+    align-self: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.text.container {
+    flex-direction: column;
+}
+.text.container p {
+    margin: 4px;
+    width: 300px;
+}
+.part-four.container button {
+    width: 100px;
+    height: 25px;
+    background-color: #ede400;
+    border: solid black;
+    border-radius: 6px;
+}
+.footer.container {
+    background-color: lightgray;
+    width: 100%; 
+    justify-content: center;
+}
